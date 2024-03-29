@@ -60,6 +60,8 @@ public class loc {
 		
 		Thread.sleep(3000);
 		driver.quit();
+		
+		driver.close();
 		}
 	
 	public void getpassword(WebDriver driver) throws Exception
