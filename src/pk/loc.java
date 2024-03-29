@@ -10,6 +10,8 @@ public class loc {
 		System.setProperty("webdriver.chrome.driver","D:\\Softwares\\chromedriver_win32 (2)\\chromedriver.exe");
 		
 		WebDriver driver=new ChromeDriver();
+
+		System.out.println("krish has updated this code");
 		
 		driver.get("https://rahulshettyacademy.com/locatorspractice/");
 		Thread.sleep(3000);
