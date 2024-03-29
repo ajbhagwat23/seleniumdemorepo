@@ -57,7 +57,7 @@ public class own {
 
 	driver.findElement(By.xpath("//button[contains(@class,'submit')]")).click();
 	
-	driver.close();
+	
 }
 
 }

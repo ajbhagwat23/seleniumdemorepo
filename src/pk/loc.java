@@ -59,9 +59,7 @@ public class loc {
 		driver.findElement(By.className("logout-btn")).click();
 		
 		Thread.sleep(3000);
-		driver.quit();
-		
-		driver.close();
+	
 		}
 	
 	public void getpassword(WebDriver driver) throws Exception
